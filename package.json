@@ -1,7 +1,8 @@
 {
   "name": "webrtc-analyzer",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "WebRTC Connection Analyzer",
+  "module": "./src/App.js",
   "main": "./build/webrtc-analyzer.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --progress --config webpack.dev.js",
