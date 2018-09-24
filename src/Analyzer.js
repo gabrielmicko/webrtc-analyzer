@@ -147,7 +147,6 @@ class Analyzer extends Component {
   }
 
   toggleVisibility() {
-    console.log('Toggle visibility');
     this.setState({
       isVisible: !this.state.isVisible
     });

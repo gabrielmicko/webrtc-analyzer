@@ -26,6 +26,7 @@ const Tr = styled.tr`
 `;
 
 const Td = styled.td`
+  font-size: 12px;
   padding: 3px 10px;
   word-wrap: break-word;
   &:nth-child(2) {

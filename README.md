@@ -41,6 +41,9 @@ renderWebRTCAnalyzer({
 }, '#wa-app') //Select where the component gets rendered to
 ```
 
+##### CodeSandbox example
+[![Edit o516lvy699](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/o516lvy699)
+
 ##### Show & Hide
 
 `CTRL` + `H` to toggle
@@ -59,7 +62,7 @@ yarn run build
 
 ### Version
 
-3.0.4
+3.0.5
 
 ### Contact
 
