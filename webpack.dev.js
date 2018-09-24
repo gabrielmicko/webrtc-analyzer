@@ -40,7 +40,7 @@ const config = {
   devtool: 'source-map',
   devServer: {
     port: 3000,
-    host: '0.0.0.0',
+    host: 'localhost',
     publicPath: '/',
     historyApiFallback: true,
     open: true,
