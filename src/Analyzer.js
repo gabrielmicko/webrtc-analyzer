@@ -1,4 +1,3 @@
-import '@babel/polyfill';
 import { h, Component } from 'preact';
 import Navigation from './Navigation';
 import RTCDetails from './RTCDetails';
@@ -113,16 +112,16 @@ class Analyzer extends Component {
     document.removeEventListener('keyup', this.handleKeyUp);
   }
 
-  async refreshState() {
+  refreshState() {
     if (this.props.peerConnections.length > 0) {
-      let rtcStatsReport = await this.props.peerConnections[this.state.selectedPC].getStats();
-
-      let rtcStats = [];
-      rtcStatsReport.forEach(report => {
-        rtcStats.push(report);
-      });
-      this.setState({
-        rtcStats: rtcStats
+      this.props.peerConnections[this.state.selectedPC].getStats().then(rtcStatsReport => {
+        let rtcStats = [];
+        rtcStatsReport.forEach(report => {
+          rtcStats.push(report);
+        });
+        this.setState({
+          rtcStats: rtcStats
+        });
       });
     } else {
       this.setState({

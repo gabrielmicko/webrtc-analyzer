@@ -1,24 +1,12 @@
 {
-  "presets": [[
-      "@babel/preset-env",
-      {
-        "targets": {
-          "node": "current"
-        }
-      }
-    ], "@babel/preset-react"],
+  "plugins": [
+    ["@babel/transform-react-jsx", { "pragma":"h" }]
+  ],
   "env": {
     "test": {
       "presets": ["node5"]
     }
-  },
-  "plugins": [
-    [
-      "transform-react-jsx",
-      {
-        "pragma": "h"
-      }
-    ],
-    "styled-components"
-  ]
+  }
 }
+
+

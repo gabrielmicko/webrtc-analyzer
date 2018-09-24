@@ -4,7 +4,6 @@ const path = require('path');
 const PACKAGE = require('./package.json');
 const PACKAGE_NAME = PACKAGE.name;
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const fs = require('fs');
 
