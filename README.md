@@ -41,8 +41,8 @@ renderWebRTCAnalyzer({
 }, '#wa-app') //Select where the component gets rendered to
 ```
 
-##### CodeSandbox example
-[![Edit o516lvy699](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/o516lvy699)
+##### Example page
+[Example](https://analyzer.webrtc.rocks)
 
 ##### Show & Hide
 
@@ -62,7 +62,7 @@ yarn run build
 
 ### Version
 
-3.0.6
+3.1.0
 
 ### Contact
 
