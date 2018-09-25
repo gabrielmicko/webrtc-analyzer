@@ -62,7 +62,7 @@ yarn run build
 
 ### Version
 
-3.0.5
+3.0.6
 
 ### Contact
 
