@@ -20,6 +20,18 @@ This tool helps you to debug WebRTC connections.
 
 ![WebRTC-Analyzer](https://i.imgur.com/8eLNbUQ.png)
 
+### How to use
+
+Install with yarn.
+```js
+yarn add webrtc-analyzer
+```
+
+Install with npm.
+```js
+npm i webrtc-analyzer
+```
+
 ### Example code
 
 ##### Reactive way
@@ -52,13 +64,6 @@ renderWebRTCAnalyzer({
 ##### Move position
 
 `CTRL` + `W` to toggle
-
-### Try it out
-Download and install dependencies, build.
-```js
-yarn install
-yarn run build
-```
 
 ### Version
 
