@@ -67,7 +67,7 @@ renderWebRTCAnalyzer({
 
 ### Version
 
-3.1.0
+3.1.1
 
 ### Contact
 

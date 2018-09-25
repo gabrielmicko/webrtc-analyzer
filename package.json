@@ -1,6 +1,6 @@
 {
   "name": "webrtc-analyzer",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "WebRTC Connection Analyzer",
   "module": "./src/App.js",
   "main": "./build/webrtc-analyzer.js",
@@ -34,6 +34,17 @@
     "webpack-cli": "^3.0.6",
     "webpack-dev-server": "^3.1.7"
   },
+  "keywords": [
+    "webrtc",
+    "analyze",
+    "analyzer",
+    "diagnostic",
+    "statistic",
+    "real-time",
+    "realtime",
+    "debugging",
+    "getStats"
+  ],
   "jest": {
     "transform": {
       ".*": "./node_modules/babel-jest"
